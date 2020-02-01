@@ -1,0 +1,112 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css?family=Lato|Nunito&display=swap&subset=latin-ext');
+
+/* Czcionki:
+Nagłówki: Nunito
+h1: 1.5em
+h2: 1.25em
+Text: Lato, 1em
+font-family: 'Lato', sans-serif;
+font-family: 'Nunito', sans-serif;
+*/
+
+#container{
+  padding: 1rem;
+}
+
+h1{
+  font-family: 'Nunito',sans-serif;
+  font-size: 1.4rem;
+  padding: 1rem 0;
+}
+p{
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  line-height:1.4;
+  padding: 1rem 0;
+}
+h2{
+  font-size:1.25rem;
+  padding: 1rem 0;
+}
+a{
+  text-decoration:none;
+  color:rgba(200,160,230,1);
+  font-size:1.6rem;
+}
+
+a:hover{
+  color:rgb(50,80,90);
+}
+
+ul li{
+  display: inline-block;
+  padding:3rem;
+}
+.kostka{
+  width:10%;
+}
+.ramka{
+  border:5px yellow dashed;
+  float:left;
+
+}
+#kostka1{
+  float:left;
+}
+#kostka2{
+  float:right;
+}
+
+.clearfix{
+  clear:both;
+}
+
+.left{
+  float: left;
+  padding: 1em 2em;
+}
+
+.prawy{
+  float: right;
+}
+
+.lewy{
+  float: left;
+}
+
+nav{
+  background-color:green;
+  width:100%;
+  z-index:1;
+  text-align: center;
+}
+
+main{
+  margin-top: 30px;
+}
+
+input[type=text], input[type=email]{
+border: 2px solid red;
+display: block;
+height:1.5rem;
+width:16.6rem;
+margin:0.4rem;
+}
+
+textarea{
+border: 2px solid red;
+display: block;
+}
+
+button{
+  padding: 1em 3em;
+  background-color: red;
+  margin:0.4rem;
+  width:15rem;
+}
+
+footer{
+height:3rem;
+text-align:center;
+}
